@@ -1,0 +1,11 @@
+[package]
+name = "colibri-expert"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Cache LRU e streaming expert da disco (expert_store.h)"
+
+[dependencies]
+colibri-core = { path = "../colibri-core" }
+colibri-store = { path = "../colibri-store" }
+parking_lot = { workspace = true }

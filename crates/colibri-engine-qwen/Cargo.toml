@@ -1,0 +1,13 @@
+[package]
+name = "colibri-engine-qwen"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Engine MoE stile Qwen3.6 (scaffold; forward da completare)"
+
+[dependencies]
+colibri-core = { path = "../colibri-core" }
+colibri-store = { path = "../colibri-store" }
+colibri-expert = { path = "../colibri-expert" }
+colibri-quant = { path = "../colibri-quant" }
+colibri-tok = { path = "../colibri-tok" }

@@ -1,0 +1,10 @@
+[package]
+name = "colibri-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Tipi comuni, errori e config per colibri-rs"
+
+[dependencies]
+thiserror = { workspace = true }
+serde = { workspace = true }

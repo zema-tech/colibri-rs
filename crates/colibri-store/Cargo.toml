@@ -1,0 +1,11 @@
+[package]
+name = "colibri-store"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Lettura pesi da disco (mmap / pread), stile st.h di Colibrì"
+
+[dependencies]
+colibri-core = { path = "../colibri-core" }
+memmap2 = { workspace = true }
+thiserror = { workspace = true }
