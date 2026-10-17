@@ -1,0 +1,10 @@
+[package]
+name = "colibri-st"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Safetensors shard index (port of the read path in Colibri st.h)"
+
+[dependencies]
+serde_json = "1"
+thiserror = "2"

@@ -3,9 +3,8 @@ name = "colibri-expert"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
-description = "Cache LRU e streaming expert da disco (expert_store.h)"
+description = "Leased expert cache streamed from a safetensors shard"
 
 [dependencies]
-colibri-core = { path = "../colibri-core" }
-colibri-store = { path = "../colibri-store" }
-parking_lot = { workspace = true }
+colibri-st = { path = "../colibri-st" }
+thiserror = "2"

@@ -1,9 +1,0 @@
-[package]
-name = "colibri-tok"
-version.workspace = true
-edition.workspace = true
-license.workspace = true
-description = "Tokenizer (stub; da allineare a tok.h / tokenizer del modello)"
-
-[dependencies]
-colibri-core = { path = "../colibri-core" }
